@@ -307,6 +307,6 @@ Released under the [MIT License](LICENSE). See `LICENSE` for details.
 **Kitrockz** · Team ID `VTU-QFF-HC-0031` · Tier `Both`
 · Built with ⚛️ Qiskit for the VTU-QFF Hackathon
 
-[⬆ Back to Top](#Kitrockz)
+[⬆ Back to Top](#kitrockz)
 
 </div>
