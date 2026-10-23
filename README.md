@@ -46,9 +46,9 @@
 
 | # | Name | GitHub Username | Role |
 | :-- | :--- | :--- | :--- |
-| 1 | _Add your name_ | _your-github-username_ | _Team Lead_ |
-| 2 | _Add your name_ | _your-github-username_ | _Developer_ |
-| 3 | _Add your name_ | _your-github-username_ | _Developer_ |
+| 1 | RITIK KAMBLE | Ritik-006 | _Team Lead_ |
+| 2 | PARASHARAM VADDAR | Parasharam-hash | _Developer_ |
+| 3 | PRASHANTH KUTRE | prashanthkutre9-gif | _Developer_ |
 
 <!--
 Optional: add a plain list instead of the table above.
@@ -60,15 +60,15 @@ Optional: add a plain list instead of the table above.
 
 ## ❓ Problem Statement
 
-<!--
-State the problem you are solving. Be specific: what is broken or missing,
-who experiences it, and why does it matter. Link to the official problem
-statement from the brief if one applies.
+<!--ScamShield AI
+Intelligent Digital Fraud Detection & Protection System
+"Develop an AI-powered digital security platform that detects and explains potential online scams by analyzing suspicious messages, phishing URLs, and fraudulent communication using machine learning and hybrid quantum-classical classification techniques."
 -->
 
-**Problem:** _Describe the problem in 2–3 sentences._
 
-**Why it matters:** _Explain the impact or opportunity._
+**Problem:** _Online scams, phishing links, and fraudulent messages are increasing, putting users’ personal and financial information at risk. ScamShield AI aims to detect and explain these threats using artificial intelligence and machine learning, helping users identify scams and stay safe online.._
+
+**Why it matters:** _ScamShield AI helps prevent financial losses, protect personal information, and increase awareness of online fraud. It provides an opportunity to make digital communication safer by detecting scams early and helping users make informed decisions.._
 
 **Track / Category:** _Online / Offline · Track 1 / Track 2 · <domain>_
 
@@ -76,38 +76,47 @@ statement from the brief if one applies.
 
 ## 💡 Proposed Solution
 
-<!--
-Describe your solution. Keep it concrete: the core idea, the user flow, and
-the quantum/ML technique you are applying.
+<!--ScamShield AI – Proposed Solution
+
+ScamShield AI is an intelligent fraud detection platform that analyzes suspicious messages, phishing URLs, and online communications to identify potential scams and protect users’ personal and financial information.
+
+- AI-Powered Detection: Uses NLP and machine learning (Random Forest) to identify fraudulent patterns.
+- Instant Risk Assessment: Classifies content as safe, suspicious, or potentially fraudulent and generates a risk score.
+- Explainable AI: Highlights warning signs and explains why a message or link may be dangerous.
+- Hybrid Quantum-Classical Classification: Explores quantum machine learning combined with classical algorithms to improve fraud detection.
+- Simple User Flow: Users paste a message or URL and receive a quick analysis, risk score, and actionable safety guidance.
 -->
 
-**Solution:** _In 2–3 sentences, describe what you built._
+**Solution:** _ScamShield AI is an AI-powered platform that detects online scams, phishing URLs, and fraudulent messages using NLP and machine learning, providing instant risk scores and clear explanations of potential threats. It combines classical ML techniques with an experimental hybrid quantum-classical classifier to support smarter fraud detection and help users make safer digital decisions.._
 
-**Key idea:** _The one-line technical summary of your approach._
+**Key idea:** _ScamShield AI combines NLP, machine learning, and hybrid quantum-classical classification to detect digital fraud, assess scam risks, and deliver explainable real-time security alerts.._
 
-**Why this works:** _How your approach addresses the problem statement._
+**Why this works:** _ScamShield AI identifies suspicious patterns in messages and URLs, helping detect potential fraud before users interact with dangerous content. By combining AI-based analysis with explainable risk scores and warnings, it enables users to recognize threats early and make safer digital decisions.._
 
 ---
 
 ## 🧩 Approach & Architecture
 
-<!--
-Walk through how it works. A simple pipeline diagram in text or Mermaid is ideal.
+<!--## Approach & Architecture – ScamShield AI
+
+ScamShield AI follows a modular architecture that processes user-submitted messages and URLs through data preprocessing, feature extraction, and AI-based classification. NLP and Random Forest models detect suspicious patterns, while a hybrid quantum-classical model is explored for advanced classification. The results are presented through a user-friendly dashboard with risk scores, threat explanations, and safety recommendations.
+
+Workflow: User Input → Preprocessing → Feature Extraction → ML & Quantum-Classical Classification → Risk Scoring → Explainable Alerts & Recommendations.
 -->
 
 ```mermaid
 flowchart LR
-    A[Input Data] --> B[Preprocessing]
+    A[Input ] --> B[Preprocessing]
     B --> C[Quantum Circuit / Model]
     C --> D[Post-processing]
     D --> E[Output]
 ```
 
-1. **Input** — _what data goes in and in what format_
-2. **Preprocessing** — _cleaning, feature extraction, encoding_
-3. **Quantum core** — _the circuit, ansatz, or algorithm used_
-4. **Post-processing** — _decoding, measurement, scoring_
-5. **Output** — _what the user finally gets_
+1. **Input** — _Suspicious messages, phishing URLs, and email text are accepted as input._
+2. **Preprocessing** — _The system cleans the text, extracts important features, and converts data into a suitable numerical format._
+3. **Quantum core** — _A Variational Quantum Circuit (VQC) combined with machine learning analyzes patterns to classify potential scams._
+4. **Post-processing** — _The system interprets model results, calculates a risk score, and identifies potential threats._
+5. **Output** — _Users receive a scam detection result, risk level, explanation, and safety recommendations._
 
 ---
 
