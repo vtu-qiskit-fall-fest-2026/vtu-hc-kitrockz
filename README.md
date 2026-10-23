@@ -32,47 +32,6 @@ User Input → Flask Web Interface → Scam Detection Engine → Machine Learnin
 
 An experimental quantum-circuit module is included to explore quantum computing concepts. It is not assumed to outperform classical machine learning.
 
-## ⚙️ Installation and Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/ScamShield-AI.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd ScamShield-AI
-   ```
-
-3. Create a virtual environment:
-
-   ```bash
-   python -m venv venv
-   ```
-
-4. Activate it on Windows PowerShell:
-
-   ```powershell
-   .\venv\Scripts\Activate.ps1
-   ```
-
-5. Install dependencies:
-
-   ```bash
-   python -m pip install -r requirements.txt
-   ```
-
-6. Start the application:
-
-   ```bash
-   python app.py
-   ```
-
-7. Open the following address in your browser:
-
-   `http://127.0.0.1:5000`
 
 ## 🎯 Project Objectives
 
