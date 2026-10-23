@@ -49,6 +49,20 @@ An experimental quantum-circuit module is included to explore quantum computing 
 - Add model explainability and detailed evaluation reports.
 - Experiment with hybrid quantum-classical classifiers and compare them fairly against classical baselines.
 
+- 
+## 🎥 Project Demo Video
+
+Watch the ScamShield AI project demonstration on YouTube.
+
+▶️ **[Watch Demo Video](https://youtu.be/Sh0PPf1ga8E)**
+
+## 📊 Project Presentation
+
+View the PowerPoint presentation explaining the problem statement, objectives, system architecture, implementation, and future scope.
+
+📄 **[View Project PPT](YOUR_PPT_LINK)*
+
+
 ## ⚠️ Limitations
 
 This is an educational prototype, not a guaranteed scam detector. Results depend on the training data and detection rules. A low risk score does not prove that a message is safe. The experimental quantum module does not establish quantum advantage.
