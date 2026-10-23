@@ -1,0 +1,84 @@
+[
+ {
+  "text": "URGENT: Your SBI account is blocked. Verify immediately at http://secure-login-verify.example/acc and share the OTP.",
+  "classical": 0.9366305702808289,
+  "quantum": 0.919997838853952,
+  "hybrid": 0.9283142045673904,
+  "label": "HIGH RISK",
+  "signs": [
+   "Urgent or threatening language",
+   "Suspicious or shortened link",
+   "Requests OTP, PIN or password"
+  ],
+  "features": [
+   2.2525532283589955,
+   1.2663200923247944,
+   1.2473499308236102,
+   1.207980543028947
+  ]
+ },
+ {
+  "text": "Hey, are we still on for dinner at 8 tonight?",
+  "classical": 0.09510387800183015,
+  "quantum": 0.08396143560674862,
+  "hybrid": 0.08953265680428939,
+  "label": "LOW RISK",
+  "signs": [],
+  "features": [
+   0.8225341091322768,
+   1.276842288040771,
+   2.019678872204816,
+   2.649884380168333
+  ]
+ },
+ {
+  "text": "Congratulations! You won Rs 25 lakh. Pay a small fee to claim your prize: http://bit.ly/x7Qa2",
+  "classical": 0.9365489787990348,
+  "quantum": 0.6856231519791043,
+  "hybrid": 0.8110860653890695,
+  "label": "HIGH RISK",
+  "signs": [
+   "Suspicious or shortened link",
+   "Requests money or fees",
+   "Too-good-to-be-true reward"
+  ],
+  "features": [
+   1.533406957075098,
+   1.5107885197664304,
+   1.088127406071106,
+   1.4462764798088843
+  ]
+ },
+ {
+  "text": "Your HDFC statement is ready in the app. Never share your OTP with anyone.",
+  "classical": 0.08638339998643321,
+  "quantum": 0.12060096616226357,
+  "hybrid": 0.10349218307434839,
+  "label": "LOW RISK",
+  "signs": [],
+  "features": [
+   1.1567521217680996,
+   1.220875301487426,
+   2.3307423798068783,
+   1.1276569646444579
+  ]
+ },
+ {
+  "text": "Your parcel is held. Pay a customs fee of Rs 499 at http://tinyurl.com/k9d2 within 12 hours.",
+  "classical": 0.9554620845105948,
+  "quantum": 0.9661735541684722,
+  "hybrid": 0.9608178193395335,
+  "label": "HIGH RISK",
+  "signs": [
+   "Urgent or threatening language",
+   "Suspicious or shortened link",
+   "Requests money or fees"
+  ],
+  "features": [
+   2.3363393038606284,
+   1.270147314980195,
+   1.0254067794158312,
+   1.3737024336661172
+  ]
+ }
+]
